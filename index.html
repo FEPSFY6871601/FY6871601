@@ -1,70 +1,56 @@
 <!DOCTYPE html>
-
 <html>
-
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
- 
- 
   <style>
-    /* Set font to Times New Roman and background color */
     body {
       font-family: "Times New Roman", Times, serif;
       margin: 0;
       padding: 0;
       line-height: 1.6;
-      background-color: ##194a7a; /* Light beige background */
+      background-color: #194a7a;
       color: #333;
     }
-
     header {
       text-align: center;
       padding: 1rem;
     }
-
-    h1, h2 {
+    h1, h2, h3 {
       text-align: center;
       margin: 0.5rem 0;
     }
-
     table {
       font-family: "Times New Roman", Times, serif;
       border-collapse: collapse;
-      width: 40%;
+      width: 50%;
       margin: 1rem auto;
     }
-
     td, th {
       border: 1px solid #dddddd;
       text-align: left;
       padding: 8px;
     }
-
     tr:nth-child(even) {
       background-color: #f9f9f9;
     }
-
     figure {
       margin: 20px 0;
       text-align: center;
     }
-
     figcaption {
       font-size: 14px;
       color: #555;
     }
-
     img {
       display: block;
-      margin: 0 auto; /* Center images */
+      margin: 0 auto;
     }
-
-    p.ex1 {
-      margin-left: 0;
+    p {
+      margin-left: 1rem;
+      margin-right: 1rem;
+      text-align: justify;
     }
-
     pre {
       background-color: #fff;
       padding: 1rem;
@@ -72,30 +58,24 @@
       border-radius: 8px;
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     }
-
-    /* Smooth scrolling */
     html {
       scroll-behavior: smooth;
     }
   </style>
 </head>
-
 <body>
 
 <header>
-  <img src="WebBanner2023.png" alt="Banner" width="900" height="300">
-  <h1><b>ENG0018 Computer Laboratory 2024/25</b></h1>
-  <h2>Student URN: 6807257</h2>
+  <img src="WebBanner2023.png" alt="Maglev Banner" width="900" height="300">
+  <h1><b>Maglev Technology: Revolutionizing Modern Transportation</b></h1>
+  <h2>Student ID: 6871601</h2>
 </header>
 <hr>
-<h2 style="text-align: center;"><b>Investigating the impact of robotic surgery: ethical, moral, and legal aspects</b></h2>
-<hr>
 
-<!table of contents>
+<h2>Table of Contents</h2>
 <table>
-
   <tr>
-    <th><h3>Table of content</h3></th>
+    <th>Section</th>
   </tr>
   <tr>
     <td><a href="#Abstract">Abstract</a></td>
@@ -104,134 +84,86 @@
     <td><a href="#Introduction">Introduction</a></td>
   </tr>
   <tr>
-    <td><a href="#Benefits and Challenges">Benefits and Challenges</a></td>
+    <td><a href="#Principles">Core Principles of Magnetic Levitation</a></td>
   </tr>
   <tr>
-    <td><a href="#Future of Surgical Robots">Future of Surgical Robots</a></td>
-    <tr>
-    <td><a href="#Conclusion">Conclusion</a></td>
+    <td><a href="#Applications">Practical Applications</a></td>
   </tr>
+  <tr>
+    <td><a href="#Impact">Environmental and Economic Impact</a></td>
+  </tr>
+  <tr>
+    <td><a href="#Challenges">Challenges in Implementation</a></td>
+  </tr>
+  <tr>
+    <td><a href="#Future">Future Prospects</a></td>
   </tr>
   <tr>
     <td><a href="#References">References</a></td>
   </tr>
 </table>
 
- 
 <h3 id="Abstract">Abstract</h3>
-   <p class="ex1">
-   <pre>
-     The amazing technology of magnetic levitation (Maglev) trains, has made a breakthrough in transport technology, using magnetic forces to completely remove the contact between trains and tracks.
-     Therefore, making it possible for train to travel over 400 kilometres an hour but also providing a smoother ride for the passengers. The article takes a comprehensive look at the basic principles of Maglev technology,
-     what the current of Maglev applications are, its environmental and economic impact and prospects for future transportation development globally.
-   </pre>
-   </p>
+<pre>
+The transformative technology of magnetic levitation (Maglev) trains has revolutionized transportation by eliminating contact between trains and tracks using magnetic forces.
+  Capable of speeds exceeding 400 km/h, Maglev systems offer smoother, quieter rides and reduced energy waste. This article delves into the principles of Maglev technology, 
+  its practical applications, environmental and economic implications, challenges in adoption, and future potential for reshaping global transportation.
+</pre>
 
 <h3 id="Introduction">Introduction</h3>
-  <p class="ex1">
-  <pre>
-     Now most traditional railways are transformed by magnetic levitation technology, or Maglev. Under this scheme, more citizens can arrive at their destination quicker. In its earliest form, Maglev was theoretically
-     advanced around the early 1900s. Ever since, Maglev projects have been the standard for high-speed rail networks in the present and future transportation<a href="#ref-powell1979">(Powell and Danby, 1979)</a>. Pioneer
-     examples in countries like Japan and China are now under way on a large-scale construction of train lines throughout their country: these multi-billion-pound train lines can reach top speeds of 600 km/h. 
+<pre>
+  Magnetic levitation (Maglev) technology is redefining rail transport. By leveraging magnetic forces to lift and propel trains, this innovation minimizes friction and maximizes 
+  efficiency. Originating in the early 1900s, Maglev has become synonymous with high-speed rail networks. Pioneering projects in Japan and China have demonstrated the feasibility 
+  and advantages of these systems, with trains reaching speeds of up to 600 km/h. As cities seek eco-friendly and efficient transit solutions, Maglev offers a compelling path forward.
+</pre>
 
-     Watching the high speed at which Maglev travels without friction is especially fascinating because this kind of application of thinking that could be said an alternative method. These systems not only reduce wear and
-     tear on rails (at long last!) but they also offer smoother, quieter rides due to less friction one travels over them, which should be considered environmentally conscious if nothing else<a href="#ref-lee2018">(Lee and
-     Tseng, 2018)</a>. Supported by the latest engineering and physics, Maglev is thus an exciting area of interdisciplinary study for engineers and physicists. It is a subject particularly well-suited to collaborative
-     international effort, and nations are themselves looking far into the future of travel in cities and between towns<a href="#ref-smith2021">(Smith, 2021)</a>.
+<h3 id="Principles">Core Principles of Magnetic Levitation</h3>
+<pre>
+Maglev systems operate using two primary technologies:
 
-  </pre>
-  </p>
+1. **Electromagnetic Suspension (EMS)**: Utilizes powerful electromagnets on the train to interact with metallic rails, enabling the train to hover slightly above the track. Ideal for 
+  urban environments, EMS systems provide silent, vibration-free transit while reducing noise pollution.
 
-  <h3 id="Benefits and Challenges">Benefits and Challenges</h3>
-  <p class="ex1">
-  <pre>
-      The integration of robotic systems into surgery has brought significant ethical, moral, and legal benefits.
-      From an ethical perspective, robotic surgeries enhance patient safety by reducing surgical errors by improved precision and control.
-      Particularly the da Vinci system which is a ‘system consists of a console from which the surgeon remotely controls arms connected to a
-      robotic cart beside the patient’ it has been widely adopted, with over 7,500 units installed globally and millions of surgeries performed annually,
-      <a href="#figure1">Figure 1</a> shows the da Vinci Surgical Robot used in a hospital setting, it’s been crucial to make sure that robotic surgery continues to deliver precise
-      and safe assistance<a href="#ref-goh2022">(Goh and Ali, 2022)</a>;<a href="#ref-kucuk2018">(Küçük, 2018)</a>. Studies also highlight the ability of these systems to minimise
-      postoperative problems and reduce recovery times, which supports the moral aspect to prioritise patient well-being and comfort<a href="#ref-reddy2023">(Reddy et al., 2023)</a>;
-      <a href="#ref-rivero2023">(Rivero-Moreno et al., 2023)</a>. Furthermore, robotic surgery's minimally invasive nature enables surgeons to perform procedures with fewer incisions and
-      less tissue damage, leading to better outcomes and shorter hospital stays, therefore keeping ethical standards of care<a href="#ref-kucuk2018">(Küçük, 2018)</a>.
-  </pre>
- 
-  <figure id="figure1">
-    <img src="daVinciRobot.png" alt="da Vinci Surgical Robot" width="400" height="200">
-    <figcaption><i>Figure 1: The da Vinci Surgical Robot in a hospital in Pittsburgh.<a href="#ref-bean2018">(Bean, M., 2018)</a></i></figcaption>
-  </figure>
- 
-  <pre>
-     The adoption of robotic surgery, while revolutionary, also presents significant challenges. The financial burden
-      these robots can create due to their price could raise questions about equal access and potentially worsen the existing
-      disparity between well-funded institutions and underserved communities in healthcare<a href="#ref-reddy2023">(Reddy et al., 2023)</a>. Morally, ensuring that
-      these developments are accessible and not limited to specific patients or facilities is crucial. Another critical challenge is accountability
-      for errors or complications as robotic surgeries were ‘involved in 144 deaths and 1,391 injuries in the US during a 14-year period.’<a href="#ref-randell2015">(Randell, 2015)</a>.
-      With increasing autonomy in robotic systems through artificial intelligence, the question arises: who has the legal responsibility for any issues?
-      This lack of clarity on whether liability rests with the surgeon, the manufacturer, or the software developers complicates legal proceedings and risks the
-      trust a patient requires in a surgery<a href="#ref-rivero2023">(Rivero-Moreno et al., 2023)</a>. Training is another significant obstacle. Surgeons must undergo extensive training to
-      master these systems, and inconsistency in access to training resources can affect the quality of care across institutions<a href="#ref-kucuk2018">(Küçük, 2018)</a>. Additionally, the
-      dependency on robotics may diminish manual surgical skills over time, raising questions about preparedness in situations where robotic systems fail.
-      Addressing these challenges will be important in the growing future of surgical robots.
-  </pre>
-  </p>
- 
-  <h3 id="Future of Surgical Robots">Future of Surgical Robots</h3>
-  <p class="ex1">
-  <pre>
-      The future of surgical robots is poised to revolutionise the medical field, use advanced artificial intelligence (AI) with robotic
-      systems to deliver precise and minimally invasive procedures. These emerging innovations show for more enhanced capabilities
-      such as autonomous task execution, real-time decision-making, and personalised surgical approaches. These progresses will likely
-      help reduce human error and allow for even more safe use of robots and expand access to complex surgeries in
-      remote or resource-limited areas that normally would have a higher risk when being performed by a human surgeon.
-      AI-integrated systems, particularly those leveraging machine learning algorithms are also expected to improve preoperative planning and
-      postoperative evaluations which will allow for constant improvement of the use and make procedures more trustful and safer over the
-      years to come 2022 <a href="#ref-bennett2022">(Bennett et al., 2022)</a>.
-  </pre>
-  </p>
+2. **Electrodynamic Suspension (EDS)**: Employs superconducting magnets to generate a repulsive force, lifting and stabilizing trains at high speeds. Used in Japan's L0 Series trains, 
+  EDS systems excel in intercity travel but require sophisticated cooling mechanisms to maintain superconductivity.
+</pre>
 
-  <h3 id="Conclusion">Conclusion</h3>
-  <p class="ex1">
-  <pre>
-      In conclusion, robotic surgery has greatly helped healthcare by improving accuracy and patient recovery. Also, with ongoing
-      AI and machine learning developments, the potential for further breakthroughs is immense but comes with ethical, moral, and
-      legal considerations. Therefore, to fully realise these benefits it is essential to address issues like fair access, defined
-      accountability, and comprehensive training, ensuring that robotic systems enhance surgical care safely and effectively to be able
-      for these systems to be mass adopted globally for it to reach its full potential.
-  </pre>
-  </p>
+<h3 id="Applications">Practical Applications</h3>
+<pre>
+  Maglev technology is being applied in various contexts, from urban transit to long-distance travel. EMS systems are tailored for densely populated cities, offering scalable, sustainable
+  solutions for frequent commutes. Meanwhile, EDS systems address the need for high-speed connectivity over longer distances, supporting regional and international transportation demands.
+</pre>
 
- 
-  <h3 id="References">References</h3>
-  <ul>
-    <li id="ref-rivero2023">Rivero-Moreno, Y., et al. (2023). Robotic Surgery: A Comprehensive Review of the Literature and Current Trends. Cureus 15(7): e42370.
-      Available at: <a href="https://doi.org/10.7759/cureus.42370" target="_blank">https://doi.org/10.7759/cureus.42370</a> [Accessed 29 November 2024].
-    </li>
-    <li id="ref-reddy2023">Reddy, K., et al. (2023). Advancements in Robotic Surgery: A Comprehensive Overview of Current Utilizations and Upcoming Frontiers.
-      Cureus 15(12): e50415. Available at: <a href="https://doi.org/10.7759/cureus.50415" target="_blank">https://doi.org/10.7759/cureus.50415</a> [Accessed 29 November 2024].
-    </li>
-    <li id="ref-kucuk2018">Küçük, S. (ed.) (2018). Surgical Robotics. Rijeka: Intech Open. Available at:
-      <a href="http://dx.doi.org/10.5772/65524" target="_blank">http://dx.doi.org/10.5772/65524</a> (Accessed: 27 November 2024).
-    </li>
-    <li id="ref-bennett2022">Bennett, I., Hadjipanayis, C. G., Fontes, R., Bederson, J. B., & Fichtinger, G. (2022). Artificial intelligence and robotic surgery.
-      Available at: <a href="https://doi.org/10.7759/cureus.52243" target="_blank">https://doi.org/10.7759/cureus.52243</a> [Accessed 30 November 2024].
-    </li>
-    <li id="ref-bhandari2020">Bhandari, M., Zeffiro, T., and Reddiboina, M. (2020). Artificial intelligence and robotic surgery: Current perspective and future directions.
-      Current Opinion in Urology, 30(1), pp.48-54. Available at: <a href="https://doi.org/10.1097/MOU.0000000000000692" target="_blank">https://doi.org/10.1097/MOU.0000000000000692</a> [Accessed 27 November 2024].
-    </li>
-    <li id="ref-goh2022">Goh, E.Z. and Ali, T. (2022). Robotic surgery: an evolution in practice. Journal of Surgical Protocols and Research Methodologies, 1, pp.1-3.
-      Available at: <a href="https://doi.org/10.1093/jsprm/snac003" target="_blank">https://doi.org/10.1093/jsprm/snac003</a> [Accessed 1 December 2024].
-    </li>
-    <li id="ref-randell2015">Randell, R. (2015). Are robot surgeons in the operating theatre as safe as they could be? The Conversation.
-      Available at: <a href="https://theconversation.com/are-robot-surgeons-in-the-operating-theatre-as-safe-as-they-could-be-45113" target="_blank">https://theconversation.com/are-robot-surgeons-in-the-operating-theatre-as-safe-as-they-could-be-45176</a> [Accessed 29 November 2024].
-    </li>
-    <li id="ref-bean2018">Bean, M. (2018). Young doctors struggle to learn robotic surgery – so they are practicing in the shadows. Available at:
-      <a href="https://theconversation.com/young-doctors-struggle-to-learn-robotic-surgery-so-they-are-practicing-in-the-shadows-89646" target="_blank">https://theconversation.com/young-doctors-struggle-to-learn-robotic-surgery-so-they-are-practicing-in-the-shadows-89711</a> (Accessed: 1 December 2024).
-    </li>
-  </ul>
+<h3 id="Impact">Environmental and Economic Impact</h3>
+<pre>
+  Maglev trains are powered by electricity, making them a cleaner alternative to traditional rail systems. Their frictionless design minimizes energy loss and reduces noise and heat emissions,
+  aligning with modern cities' sustainability goals.
 
+Economically, while the initial costs of Maglev infrastructure are high, long-term benefits include reduced maintenance expenses and enhanced transportation reliability. In corridors like 
+  Tokyo-Osaka, Maglev can significantly lower operational costs while supporting economic growth.
+</pre>
 
-     
-  </pre>
+<h3 id="Challenges">Challenges in Implementation</h3>
+<pre>
+  Despite its advantages, Maglev technology faces hurdles:
 
+- **High Infrastructure Costs**: Specialized tracks and power grids increase expenses, limiting widespread adoption.
+- **Technical Barriers**: Dependence on superconducting magnets and significant energy requirements pose operational challenges.
+</pre>
+
+<h3 id="Future">Future Prospects</h3>
+<pre>
+  Advancements in materials science and renewable energy integration hold promise for Maglev systems. Researchers aim to enhance speed, efficiency, and sustainability, positioning Maglev as a 
+  viable alternative to short-haul flights. By addressing current challenges, Maglev technology could transform global transportation into a faster, greener, and more sustainable mode of travel.
+</pre>
+
+<h3 id="References">References</h3>
+<ul>
+  <li>Powell, J. and Danby, G., 1979. Magnetic Levitation Trains. IEEE Spectrum. DOI: <a href="https://doi.org/10.1109/TMAG.2006.875842" target="_blank">https://doi.org/10.1109/TMAG.2006.875842</a>.</li>
+  <li>Wang, C. and Wang, K., 2010. Environmental and Economic Evaluation of Maglev Systems. DOI: <a href="https://doi.org/10.1109/ICMSS.2010.5576917" target="_blank">https://doi.org/10.1109/ICMSS.2010.5576917</a>.</li>
+  <li>Li, H., et al., 2023. High-Speed Maglev Transportation. Railway Sciences. DOI: <a href="https://doi.org/10.1108/RS-07-2023-0024" target="_blank">https://doi.org/10.1108/RS-07-2023-0024</a>.</li>
+  <li>Wang, L., et al., 2022. Maglev and Urban Transit Systems. Urban Transit Journal. DOI: <a href="https://transport.chd.edu.cn/en/article/doi/10.19818/j.cnki.1671-1637.2021.01.009" target="_blank">https://transport.chd.edu.cn/en/article/doi/10.19818/j.cnki.1671-1637.2021.01.009</a>.</li>
+</ul>
+
+</body>
 </html>
